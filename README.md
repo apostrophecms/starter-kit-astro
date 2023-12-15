@@ -1,24 +1,17 @@
-# Apostrophe 3 demo and test project
+# Apostrophe starter kit for Astro integration
 
-## Get started
+This is intended as a starting point for an Apostrophe project with a
+separate front end powered by [Astro](https://astro.build/).
 
-If you created your project using the CLI tool, all dependencies will already have been installed, so you can skip this step. Otherwise, install 
-the dependencies using: `npm install`
+To complete your project, you will need to fork **both** this project
+and our [astro-frontend](https://github.com/apostrophecms/astro-frontend) project.
 
-## Running the project
+Also see the [Apostrophe documentation](https://v3.docs.apostrophecms.org/). Note
+that documentation regarding Nunjucks templates, frontend assets, etc. does not
+apply when using an Astro front end because these become the responsibility of
+Astro. On the other hand, documentation about schema fields, page types, piece
+types, widget types, event handlers and many other topics remains very
+relevant when working with Astro.
 
-Run `npm run dev` to build the Apostrophe UI and start the site up. Remember, this is during alpha development, so we're all in "dev mode." The `dev` script will watch for saves in client-side CSS and Javascript and trigger a build and page refresh if they are detected. It will also restart the app when server-side code is saved.
-
-## Making it your own
-
-This boilerplate is designed so you can install and start running it right away. If you are starting a project that will go into production one day, there are a few things you should be sure to check:
-
-- [ ] **Update the shortname.** You don't need to perform this step if you created your project using the CLI tool. The `shortname` option in `app.js` is used for the database name (unless another is given in the `@apostrophecms/db` module). You should change this to an appropriate project name before you start adding any users or content you would like to keep.
-- [ ] **Update the Express.js session secret.** The secret is set to `undefined` initially in the `modules/@apostrophecms/express/index.js` file. You should update this to a unique string.
-- [ ] **Decide if you want hot reloading on.** This boilerplate uses nodemon to restart the app when files are changed. In `modules/@apostrophecms/asset/index.js` there is an option enabled to refresh the browser on restart. If you like this, do nothing. If you don't, remove the option or set it to `false`. The option has no effect when the app is in production.
-- [ ] **Update the `className` options in `app.js`.** This option is set for core widget types to provide CSS styling hooks. It is namespaced with `bp-` for "boilerplate." You will likely want to update that to match your general CSS class naming practices.
-
-## You really want the docs
-
-Right now, [all the juicy info is in the A3 docs](https://a3.docs.apostrophecms.org), so head over there and start reading! This boilerplate project is a fun introduction to the UI, but you'll want to know more to really try it out.
-
+Please see the [@apostrophecms/apostrophe-astro](https://github.com/apostrophecms/apostrophe-astro) documentation
+for complete information about how to get started with this project.
