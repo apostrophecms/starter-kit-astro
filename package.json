@@ -1,7 +1,7 @@
 {
-  "name": "starter-kit-essentials",
+  "name": "starter-kit-astro",
   "version": "1.0.0",
-  "description": "Apostrophe 3 Essential Starter Kit Site",
+  "description": "Apostrophe starter kit project for Astro integration",
   "main": "app.js",
   "scripts": {
     "start": "node app",
@@ -35,13 +35,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/apostrophecms/starter-kit-essentials"
+    "url": "https://github.com/apostrophecms/starter-kit-astro"
   },
   "author": "Apostrophe Technologies, Inc.",
   "license": "MIT",
   "dependencies": {
     "@apostrophecms/blog": "^1.0.4",
-    "apostrophe": "apostrophecms/apostrophe#pro-5272",
+    "apostrophe": "apostrophecms/apostrophe",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
