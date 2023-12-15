@@ -1,5 +1,5 @@
 require('apostrophe')({
-  shortName: 'a3-boilerplate',
+  shortName: 'starter-kit-astro',
   bundles: [ '@apostrophecms/blog' ],
   modules: {
     // Apostrophe module configuration
