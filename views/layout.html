@@ -50,6 +50,12 @@
     .hidden {
       display: none;
     }
+    :is(.status-box, .info-box) > *:first-child {
+      margin-top: 0;
+    }
+    :is(.status-box, .info-box) > *:last-child {
+      margin-bottom: 0;
+    }
   </style>
 
   <div class="info-content">
