@@ -43,7 +43,7 @@
   "dependencies": {
     "@apostrophecms/blog": "^1.0.4",
     "@apostrophecms/vite": "@apostrophecms/vite#PRO-6775-external-frontend",
-    "apostrophe": "github:apostrophecms/apostrophe#PRO-6775-external-frontend",
+    "apostrophe": "github:apostrophecms/apostrophe",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
