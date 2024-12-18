@@ -42,8 +42,8 @@
   "license": "MIT",
   "dependencies": {
     "@apostrophecms/blog": "^1.0.4",
-    "@apostrophecms/vite": "github:apostrophecms/vite",
-    "apostrophe": "github:apostrophecms/apostrophe",
+    "@apostrophecms/vite": "^1.0.0",
+    "apostrophe": "^4.11.0",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
