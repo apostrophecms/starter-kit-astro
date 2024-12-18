@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Apostrophe starter kit project for Astro integration",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "node app",
     "dev": "nodemon",
@@ -41,10 +42,12 @@
   "license": "MIT",
   "dependencies": {
     "@apostrophecms/blog": "^1.0.4",
-    "apostrophe": "^4.0.0",
+    "@apostrophecms/vite": "^1.0.0",
+    "apostrophe": "^4.11.0",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "eslint": "^8.0.0",
     "eslint-config-apostrophe": "^4.0.0",
     "nodemon": "^3.0.1"
